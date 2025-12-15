@@ -11,7 +11,7 @@ export default function Hero() {
       <Navbar />
 
       <Image
-        src="/hero-dg.jpg" // your image in public folder
+        src="/hero-bg.jpg" // your image in public folder
         alt="Hero Background"
         fill // makes image cover the section
         style={{ objectFit: "cover", objectPosition: "center" }}
