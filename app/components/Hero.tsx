@@ -18,12 +18,13 @@ export default function Hero() {
         priority // loads immediately for hero
       />
 
-      <div className="absolute inset-0 bg-black/30"></div>
+      <div className="absolute inset-0 bg-black/50"></div>
 
-      <div className="flex justify-between px-4">
-        <div className="relative text-left z-10 max-w-1/2 gap-3">
-          <h2 className="mt-4 text-white text-2xl sm:text-3xl md:text-7xl font-stretch-expanded  font-bold">
-            Eco-friendly Kitchenware for a greener home
+      <div className="flex flex-col sm:flex-row justify-between px-4">
+        <div className="relative  sm:text-left z-10 w-full md:w-1/2 gap-3 ">
+          <h2 className="mt-20 text-white text-6xl sm:text-3xl md:text-7xl font-stretch-expanded  font-bold">
+            Eco-friendly <span className="font-serif">Kitchenware</span> for a
+            greener home
           </h2>
           <p className="text-white mt-9 mb-9">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
