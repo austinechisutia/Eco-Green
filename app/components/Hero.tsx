@@ -1,13 +1,12 @@
 "use client";
 import Navbar from "@/app/components/Navbar/Navlinks"
 import Image from "next/image";
-import Link from "next/link";
 import Button from "./Shopnow"
 import Percentage from "./percentage";
 
 export default function Hero() {
   return (
-    <section className="relative w-full h-screen flex items-center justify-between">
+    <section className="relative w-full h-screen flex items-center justify-between z-50 py-4 px-4">
       <Navbar />
 
       <Image

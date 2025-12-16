@@ -43,7 +43,7 @@ export default function Nav() {
       <Logo />
       <Icons onMenuClick={toggleMenu} />
       {menuOpen && (
-        <ul className="absolute top-full left-0 mt-2 w-48 bg-white shadow-lg border border-gray-200 flex flex-col gap-2 p-4 md:hidden z-50">
+        <ul className="absolute top-full left-0 mt-2 w-48 bg-white shadow-lg border border-gray-200 flex flex-col gap-2 p-4 md:hidden z-1000">
           {links.map((link) => {
             const isActive = pathname === link.href;
             return (

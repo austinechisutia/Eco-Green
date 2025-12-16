@@ -1,13 +1,18 @@
 import Hero from "@/app/components/Hero"
-import Text from "./components/Production/top"
-import ProductCard from "./components/ProductContainer";
+import ProductList from "./components/ProducCard/Productlist";
+import KitchenCraft from "./components/kitchenCraft"
+
+
+
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <Text />
-      <ProductCard />
+      <div className="p-10">
+        <ProductList />
+      </div>
+      <KitchenCraft />
     </>
   );
 }
