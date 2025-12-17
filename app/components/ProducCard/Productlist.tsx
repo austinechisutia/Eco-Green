@@ -9,7 +9,7 @@ const products = [
     price: 35,
     image: "/ceramic.png",
     rating: 5,
-    tag:"promotion"
+    tag:"promotion",
 
   },
   {
@@ -18,7 +18,7 @@ const products = [
     price: 28,
     image: "/fridge.png",
     rating: 4,
-    tag:"New"
+    tag:"New",
 
   },
   {
@@ -27,7 +27,7 @@ const products = [
     price: 22,
     image: "/Blender.png",
     rating: 5,
-    tag:"Customer Favourite"
+    tag:"Customer Favourite",
 
   },
   {
@@ -36,7 +36,7 @@ const products = [
     price: 18,
     image: "/waterbottle.png",
     rating: 4,
-    tag:"promotion"
+    tag:"promotion",
 
   },
   {
@@ -45,7 +45,7 @@ const products = [
     price: 12,
     image: "/Sufuria.png",
     rating: 5,
-    tag:"promotion"
+    tag:"promotion",
 
   },
   {
@@ -54,7 +54,7 @@ const products = [
     price: 35,
     image: "/ceramic.png",
     rating: 5,
-    tag:"promotion"
+    tag:"promotion",
 
   },
   {
@@ -63,7 +63,7 @@ const products = [
     price: 28,
     image: "/fridge.png",
     rating: 4,
-    tag:"promotion"
+    tag:"promotion",
 
   },
   {
@@ -72,7 +72,7 @@ const products = [
     price: 22,
     image: "/Blender.png",
     rating: 5,
-    tag:"promotion"
+    tag:"promotion",
 
   },
   {
@@ -81,7 +81,7 @@ const products = [
     price: 18,
     image: "/waterbottle.png",
     rating: 4,
-    tag:"promotion"
+    tag:"promotion",
 
   },
   {
@@ -90,7 +90,7 @@ const products = [
     price: 12,
     image: "/Sufuria.png",
     rating: 3,
-    tag:"promotion"
+    tag:"promotion",
   },
 ];
 

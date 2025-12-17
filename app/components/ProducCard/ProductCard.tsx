@@ -21,7 +21,7 @@ export default function ProductCard({
 }: ProducCardProps){
     return (
         
-      <div className="w-64 bg-lime-200 rounded-lg p-4 shadow-sm">
+      <div className="w-64 bg-white rounded-lg p-4 shadow-sm">
         <div className="relative w-full h-64">
           <div className="absolute top-2 left-2 z-50">
             <span

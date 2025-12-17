@@ -1,4 +1,7 @@
 import More from "@/app/components/More"
+import { types } from "util";
+
+
 
 export default function Text(){
     return (

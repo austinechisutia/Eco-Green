@@ -20,7 +20,7 @@ export default function Nav() {
 
        const toggleMenu = () => setMenuOpen((prev) => !prev);
   return (
-    <nav className="fixed top-0 left-0 w-full shadow-md z-50 flex items-center justify-between bg-white/30 backdrop-blur-md border-b px-6 py-4 border-gray-200">
+    <nav className="fixed top-0 left-0 w-full shadow-md z-50 flex items-center justify-between bg-white/30 backdrop-blur-md border-b px-15 py-4 border-gray-200">
       <ul className="flex gap-6 text-sm font-medium ">
         {links.map((link) => {
           const isActive = pathname === link.href;

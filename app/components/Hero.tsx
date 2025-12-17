@@ -6,7 +6,7 @@ import Percentage from "./percentage";
 
 export default function Hero() {
   return (
-    <section className="relative w-full h-screen flex items-center justify-between z-50 py-4 px-4">
+    <section className="relative w-full h-screen flex items-center justify-between z-50 p-4">
       <Navbar />
 
       <Image
